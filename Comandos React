@@ -1,0 +1,17 @@
+npx create-next-app ediaristas --ts /* cria o projeto */
+
+npm run dev /* roda o servidor react na web  */
+
+ctrl + c /* para o servidor pelo terminal */
+
+/* modificaçoes na pasta tsconfig.json */
+
+npm i @mui/material @emotion/react @emotion/styled axios react-input-mask /* instala dependencias para uso de temas */
+
+<SafeEnvironment />  /* componentes sempre iniciar com letra maiuscula */
+
+vscode styled components /* instalar no vscode para melhorias  */
+
+prettier - code formatter /*instalar no vscode para formatação (ctrl + , ) pra abilitar o formatador buscar formatter e mudar pro prettier  depois abilitar ( editor format on past || editor format on save )*/
+
+ctrl + P /* atalho pra busca de arquivos */
