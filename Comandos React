@@ -15,3 +15,87 @@ vscode styled components /* instalar no vscode para melhorias  */
 prettier - code formatter /*instalar no vscode para formatação (ctrl + , ) pra abilitar o formatador buscar formatter e mudar pro prettier  depois abilitar ( editor format on past || editor format on save )*/
 
 ctrl + P /* atalho pra busca de arquivos */
+
+
+/*  INSTALAÇÃO */
+https://www.treinaweb.com.br/blog/configurando-ambiente-de-desenvolvimento-spring-boot-no-linux
+
+
+/* JDK 17 https://youtu.be/iHZ4b1twvlg */
+
+curl -s "https://get.sdkman.io" | bash /* sdkman */
+
+sdk install java 17-open /* jdk 17 */
+
+java --version /* ve a versão do jdk 17 */
+
+/* MAVEN https://youtu.be/i1VBQ74l8mI */
+
+sdk list maven /* versão do maven */ 
+
+sdk install maven 3.8.3 /* instala o maven */
+
+mvn --version /* versão maven instalado */
+
+/* MYSQL  https://youtu.be/MtobMajasQM */
+
+sudo apt install mysql-server /* instala mysql */
+
+sudo mysql_secure_installation /*para realizar a configuração do MySQL. */
+
+/* pede validação de senha botar 'y' */
+
+/* escolher lv de senha  */
+
+/* botar senha marcar com 'y' pra confirmar que quer usar essa */
+
+/* remove usuarios anonimos botar 'y' */
+
+/* remover login como root 'n' */
+
+/* remover banco de teste 'y' */
+
+/* tabela de privilegios 'y'*/
+
+systemctl status mysql.service /* ve se ta rodando o mysql  */
+
+sudo mysql -u root -p /* logar no mysql */
+
+exit /* sai do mysql */
+
+/* INSOMNIA https://youtu.be/uE1n_7FMBPU */
+
+https://insomnia.rest/download /* baixar e instalar botão direito instalador de arquivos do ubunto instalar*/
+
+/*   DBeaver    https://youtu.be/dcxG4zN0k4Y */
+
+sudo snap install dbeaver-ce /* instalar */
+
+
+/* CRIANDO PROJETO SPRING */
+
+no vs code aperta ( crtl +shift + P ) buscar Spring initializer Create a Moven Project ( obs: talvez tenha que instalar o Spring no vs code antes ) escolha da verção " 2.5.5 " escolha da linguem " java " dominio ao contrario no caso " br.com.treinaweb " nome do projeto " e-diaristas " tipo de empacotamento " jar " versão " 17 " dependencias buscar por " Spring web " 
+ " Spring data jpa " 
+  " mysql driver "
+   " thymeleaf " 
+    " Spring boot devtools"
+     " lombok "
+     	Por fim marcar a 1 opção onde tem a lista de 6 dependencias
+
+escolher pasta do projeto 
+
+mvn spring-boot:run /* roda o projeto */
+
+ctrl + C /* para aplicação */
+
+/* Problema como o banco de dados https://itectec.com/database/mysql-dbeaver-access-denied-for-user-rootlocalhost-using-password-yes/ */
+
+
+
+
+
+
+
+
+
+
